@@ -322,3 +322,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005006 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Högskolearbete\Spelgrafiskt Projekt\Duck Unity\GruppB\DuckTransportURP\BathTime\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Högskolearbete\Spelgrafiskt Projekt\Duck Unity\GruppB\DuckTransportURP\BathTime\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.170 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1171ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (965ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (505ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (329ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6054 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (2.2 MB). Loaded Objects now: 6749.
+Memory consumption went from 236.7 MB to 234.5 MB.
+Total: 4.267900 ms (FindLiveObjects: 0.419800 ms CreateObjectMapping: 0.431400 ms MarkObjects: 2.932700 ms  DeleteObjects: 0.482900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 504.516455 seconds.
+  path: Assets/Materials/Black.mat
+  artifactKey: Guid(44199fa9b68e9a149bd1925b0a6006bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Black.mat using Guid(44199fa9b68e9a149bd1925b0a6006bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52d4164cdf676de7bafb298dba0e557') in 0.205614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/Yellow.mat
+  artifactKey: Guid(ba55c0f5cc2b41f48851440306c93001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Yellow.mat using Guid(ba55c0f5cc2b41f48851440306c93001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac3434319371d5b7df646e848a47749') in 0.011107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.419263 seconds.
+  path: Assets/Model/Hats
+  artifactKey: Guid(0152115e605725044b1749407a86089e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Hats using Guid(0152115e605725044b1749407a86089e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af380fc2b3e3ff18c5cdd7d8bddd310') in 0.004748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.874415 seconds.
+  path: Assets/Model/Hats/TopHat
+  artifactKey: Guid(c809eb19a31089d44986bbf05fa0f33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Hats/TopHat using Guid(c809eb19a31089d44986bbf05fa0f33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6d8f8d858d069fe2400870290f9b2d') in 0.004538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.009054 seconds.
+  path: Assets/Model/Hats/TopHat/Tophat_LP.fbx
+  artifactKey: Guid(e446539b65688de4f91375fb41decbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Hats/TopHat/Tophat_LP.fbx using Guid(e446539b65688de4f91375fb41decbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb7e5395a3e420799a98f7a0160680c') in 0.108968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.618217 seconds.
+  path: Assets/Model/Shark/shark_material.mat
+  artifactKey: Guid(5ac4704500b833846b8cad39e9dcbad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Shark/shark_material.mat using Guid(5ac4704500b833846b8cad39e9dcbad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510531caa4b47776756ac0f328d8206c') in 0.068165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.389217 seconds.
+  path: Assets/Model/Shark/Shark_Base_color.png
+  artifactKey: Guid(8747c08eb9d7dce47bd95bb0912d25b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Shark/Shark_Base_color.png using Guid(8747c08eb9d7dce47bd95bb0912d25b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa40cbb0c7b66636602c41b152caff9') in 0.059168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Model/Shark/shark_MSH.fbx
+  artifactKey: Guid(801556d47dd3e33468bfda0dcf2fa797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Shark/shark_MSH.fbx using Guid(801556d47dd3e33468bfda0dcf2fa797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579deba5abb5e829f7ecfe8095824088') in 0.051710 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
