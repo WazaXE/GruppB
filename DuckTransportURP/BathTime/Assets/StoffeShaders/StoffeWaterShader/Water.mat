@@ -210,7 +210,10 @@ Material:
     - _EnableFogOnTransparent: 1
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
-    - _FoamOffsett: 0.05
+    - _FoamAmount: 27.51
+    - _FoamCutoff: 33.4
+    - _FoamOffsett: 0.1
+    - _FoamScale: 160.7
     - _HeightAmplitude: 0.02
     - _HeightCenter: 0.5
     - _HeightMapParametrization: 0
@@ -247,7 +250,7 @@ Material:
     - _RenderQueueType: 4
     - _RequireSplitLighting: 0
     - _RippleDencity: 140
-    - _RippleSlimmness: 8.2
+    - _RippleSlimmness: 12.94
     - _RippleSpeed: 0.5
     - _SPECULAR_IOR: 1.5
     - _SPECULAR_ROUGHNESS: 0
@@ -275,7 +278,7 @@ Material:
     - _TexWorldScaleEmissive: 1
     - _Thickness: 1
     - _TransmissionEnable: 1
-    - _Transparancy: 0.16
+    - _Transparancy: 0.14
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
@@ -288,7 +291,7 @@ Material:
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
-    - _WaterDepth: 1
+    - _WaterDepth: 1.4
     - _WaterNoice: 10
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
@@ -302,20 +305,21 @@ Material:
         a: 0.1960784}
     - Vector2_4351ac2be1d74054986ec5378db9d578: {r: 10, g: 10, b: 0, a: 0}
     - _BASE_COLOR: {r: 0, g: 0, b: 0, a: 0}
-    - _BaseColor: {r: 0, g: 0.5424833, b: 1, a: 1}
+    - _BaseColor: {r: 0, g: 0.57317543, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0, g: 0.51488876, b: 1, a: 1}
-    - _DeepWater: {r: 0, g: 0.3960786, b: 1, a: 1}
+    - _DeepWater: {r: 0, g: 0.45427346, b: 1, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EMISSION_COLOR: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
-    - _FoamColor: {r: 2, g: 2, b: 2, a: 0}
+    - _FoamColor: {r: 2.670157, g: 2.670157, b: 2.670157, a: 0}
+    - _FoamColorV2: {r: 1, g: 1, b: 1, a: 0}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
-    - _RippleColor: {r: 0.26315412, g: 0.8435485, b: 1.0566038, a: 0.003921569}
+    - _RippleColor: {r: 0.44150937, g: 0.97133774, b: 2, a: 0.003921569}
     - _SPECULAR_COLOR: {r: 1, g: 1, b: 1, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
@@ -323,7 +327,7 @@ Material:
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
-    - _Water: {r: 0, g: 0.83137226, b: 1, a: 0.5254902}
+    - _Water: {r: 0.4616411, g: 0.83341736, b: 0.990566, a: 0.5254902}
     - _WaterDepth2: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7001823077699659506
