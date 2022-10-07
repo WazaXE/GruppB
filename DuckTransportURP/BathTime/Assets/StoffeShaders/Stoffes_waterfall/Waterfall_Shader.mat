@@ -37,7 +37,7 @@ Material:
     m_Floats:
     - _BottomBrightness: 1.67
     - _BottomStrength: 2.25
-    - _Erosion: 0
+    - _Erosion: 0.418
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Vertex_Offset_Mount: 0.03
