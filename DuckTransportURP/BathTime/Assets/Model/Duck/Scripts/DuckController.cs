@@ -61,7 +61,7 @@ public class DuckController : MonoBehaviour
         float translation = Input.GetAxisRaw("Vertical") + Gas;
 
 
-        if (Input.GetButtonDown("Vertical"))
+        if (Input.GetKeyDown("w"))
         {
             Sploosh.Play();
         }
