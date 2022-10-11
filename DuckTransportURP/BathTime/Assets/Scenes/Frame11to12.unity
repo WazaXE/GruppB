@@ -39,11 +39,7 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.37381232, g: 0.6052017, b: 0.8218648, a: 1}
-=======
-  m_IndirectSpecularColor: {r: 0.29784873, g: 0.52582115, b: 0.93163306, a: 1}
->>>>>>> 9ec14f921518d8850b264c2ee194d035a2af6bfa
 =======
   m_IndirectSpecularColor: {r: 0.29784873, g: 0.52582115, b: 0.93163306, a: 1}
 >>>>>>> 9ec14f921518d8850b264c2ee194d035a2af6bfa
@@ -1879,15 +1875,11 @@ PrefabInstance:
 --- !u!1001 &1552444164
 PrefabInstance:
   m_ObjectHideFlags: 0
-<<<<<<< HEAD
->>>>>>> 9ec14f921518d8850b264c2ee194d035a2af6bfa
-=======
 >>>>>>> 9ec14f921518d8850b264c2ee194d035a2af6bfa
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-<<<<<<< HEAD
 <<<<<<< HEAD
     - target: {fileID: 7251097422524695536, guid: 670fc6f01070d354c82d9dfe9b45f1e3,
         type: 3}
@@ -1921,8 +1913,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8064471510689356106, guid: 670fc6f01070d354c82d9dfe9b45f1e3,
 =======
-=======
->>>>>>> 9ec14f921518d8850b264c2ee194d035a2af6bfa
     - target: {fileID: 8893466912521787701, guid: f7162137a59b39f459f119f155bd814a,
         type: 3}
       propertyPath: m_Name
@@ -1954,15 +1944,11 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8994724697138073795, guid: f7162137a59b39f459f119f155bd814a,
-<<<<<<< HEAD
->>>>>>> 9ec14f921518d8850b264c2ee194d035a2af6bfa
-=======
 >>>>>>> 9ec14f921518d8850b264c2ee194d035a2af6bfa
         type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< HEAD
     - target: {fileID: 8064471510689356106, guid: 670fc6f01070d354c82d9dfe9b45f1e3,
         type: 3}
@@ -1971,28 +1957,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8064471510689356106, guid: 670fc6f01070d354c82d9dfe9b45f1e3,
 =======
-=======
->>>>>>> 9ec14f921518d8850b264c2ee194d035a2af6bfa
     - target: {fileID: 8994724697138073795, guid: f7162137a59b39f459f119f155bd814a,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8994724697138073795, guid: f7162137a59b39f459f119f155bd814a,
-<<<<<<< HEAD
->>>>>>> 9ec14f921518d8850b264c2ee194d035a2af6bfa
-=======
 >>>>>>> 9ec14f921518d8850b264c2ee194d035a2af6bfa
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
     - target: {fileID: 8064471510689356106, guid: 670fc6f01070d354c82d9dfe9b45f1e3,
-=======
-    - target: {fileID: 8994724697138073795, guid: f7162137a59b39f459f119f155bd814a,
->>>>>>> 9ec14f921518d8850b264c2ee194d035a2af6bfa
 =======
     - target: {fileID: 8994724697138073795, guid: f7162137a59b39f459f119f155bd814a,
 >>>>>>> 9ec14f921518d8850b264c2ee194d035a2af6bfa
@@ -2001,7 +1978,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
     - target: {fileID: 8064471510689356106, guid: 670fc6f01070d354c82d9dfe9b45f1e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2009,17 +1985,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8064471510689356106, guid: 670fc6f01070d354c82d9dfe9b45f1e3,
 =======
-=======
->>>>>>> 9ec14f921518d8850b264c2ee194d035a2af6bfa
     - target: {fileID: 8994724697138073795, guid: f7162137a59b39f459f119f155bd814a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8994724697138073795, guid: f7162137a59b39f459f119f155bd814a,
-<<<<<<< HEAD
->>>>>>> 9ec14f921518d8850b264c2ee194d035a2af6bfa
-=======
 >>>>>>> 9ec14f921518d8850b264c2ee194d035a2af6bfa
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -2027,11 +1998,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 670fc6f01070d354c82d9dfe9b45f1e3, type: 3}
 =======
-=======
->>>>>>> 9ec14f921518d8850b264c2ee194d035a2af6bfa
   m_SourcePrefab: {fileID: 100100000, guid: f7162137a59b39f459f119f155bd814a, type: 3}
 --- !u!1 &1661588756
 GameObject:
