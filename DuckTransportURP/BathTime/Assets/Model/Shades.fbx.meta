@@ -1,11 +1,8 @@
 fileFormatVersion: 2
-guid: c74ac67e1a4dc3a4cbb24149ad2ef27e
+guid: b0ebdd0349fc4f64fa874a4750184278
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable:
-  - first:
-      74: 7330622477707321032
-    second: swim
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
     materialImportMode: 2
