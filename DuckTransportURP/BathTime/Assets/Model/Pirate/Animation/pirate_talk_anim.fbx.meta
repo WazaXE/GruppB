@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: ffa824ad64a85a54db07aa43da00a099
+guid: cd05602d310c01846865e67b3ec53ff3
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
-      74: 7330622477707321032
-    second: swim
+      74: -2369925459275101524
+    second: pirate_talk_anim
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -18,7 +18,7 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
-    motionNodeName: pelvis_joint
+    motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
@@ -36,11 +36,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: swim
-      takeName: swim
+      name: pirate_talk_anim
+      takeName: pirate_talk_anim
       internalID: 0
-      firstFrame: 1
-      lastFrame: 39
+      firstFrame: 41
+      lastFrame: 80
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -63,7 +63,7 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1
+      additiveReferencePoseFrame: 41
     isReadable: 0
   meshes:
     lODScreenPercentages: []

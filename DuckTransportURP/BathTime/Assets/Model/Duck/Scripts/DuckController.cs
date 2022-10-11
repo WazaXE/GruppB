@@ -43,13 +43,13 @@ public class DuckController : MonoBehaviour
         {
             rb.AddForce(new Vector3(0, 50, 0), ForceMode.Impulse);
             DuckOnWater = false;
-        }    
+        }
 
     }
 
     private void OnCollisionEnter(Collision col)
     {
-        if(col.gameObject.name == "Water")
+        if (col.gameObject.name == "Water")
         {
             DuckOnWater = true;
         }
@@ -61,7 +61,7 @@ public class DuckController : MonoBehaviour
         float translation = Input.GetAxisRaw("Vertical") + Gas;
 
 
-        if (Input.GetButtonDown("Vertical"))
+        if (Input.GetKeyDown("w"))
         {
             Sploosh.Play();
         }
