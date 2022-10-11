@@ -6,6 +6,10 @@ public class DuckController : MonoBehaviour
 {
     public DuckBoing[] duckBoings;
 
+    ParticleSystem Sploosh;
+    public Rigidbody rb;
+    public bool DuckOnWater = true;
+    public float Gas;
 
     [Header("Duck Specs")]
     public float pointBase; //In Meters
@@ -25,20 +29,46 @@ public class DuckController : MonoBehaviour
     void Start()
     {
         rotateSpeed = 100f;
+
+        rb = GetComponent<Rigidbody>();
+
+        Sploosh = GetComponent<ParticleSystem>();
+
     }
     private void LateUpdate()
     {
         transform.Rotate(0f, rotation, 0f);
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && DuckOnWater)
         {
-            
-        }
+            rb.AddForce(new Vector3(0, 50, 0), ForceMode.Impulse);
+            DuckOnWater = false;
+        }    
 
+    }
+
+    private void OnCollisionEnter(Collision col)
+    {
+        if(col.gameObject.name == "Water")
+        {
+            DuckOnWater = true;
+        }
     }
 
     void Update()
     {
+
+        float translation = Input.GetAxisRaw("Vertical") + Gas;
+
+
+        if (Input.GetKeyDown("w"))
+        {
+            Sploosh.Play();
+        }
+        if (Input.GetKeyUp("w"))
+        {
+            Sploosh.Stop();
+        }
         rotation = Input.GetAxis("Horizontal") * rotateSpeed * Time.deltaTime;
         steerInput = Input.GetAxis("Horizontal");
 
@@ -68,4 +98,6 @@ public class DuckController : MonoBehaviour
                 steerAngle.steerAngle = ackermannAngleRight;
         }
     }
+
+
 }
