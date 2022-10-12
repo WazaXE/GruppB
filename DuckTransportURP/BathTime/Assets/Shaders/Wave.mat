@@ -48,7 +48,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Bottom_Brightness: 7.72
+    - _Bottom_Brightness: 28.44
     - _Bottom_Strenght: 9.19
     - _Erosion: 0
     - _QueueControl: 0
@@ -58,6 +58,6 @@ Material:
     - _Voronoi_Scale: 9
     - _Voronoi_Speed: 1
     m_Colors:
-    - _Ripple_Colour: {r: 0.43137255, g: 1.4352942, b: 2, a: 0}
+    - _Ripple_Colour: {r: 0.073765755, g: 1.184639, b: 3.1276686, a: 0}
     - _Ripple_Speed: {r: 0, g: 0.2, b: 0, a: 0}
   m_BuildTextureStacks: []
