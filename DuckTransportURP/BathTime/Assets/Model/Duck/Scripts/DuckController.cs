@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class DuckController : MonoBehaviour
 {
@@ -25,6 +26,17 @@ public class DuckController : MonoBehaviour
     public float ackermannAngleLeft;
     public float ackermannAngleRight;
 
+    //CinemachineVirtualCameraStuff
+
+    [SerializeField] CinemachineVirtualCamera firstcam;
+    [SerializeField] CinemachineVirtualCamera secondcam;
+
+
+
+
+
+
+
 
     void Start()
     {
@@ -35,6 +47,24 @@ public class DuckController : MonoBehaviour
         Sploosh = GetComponent<ParticleSystem>();
 
     }
+
+    private void OnEnable()
+    {
+        CameraSwitch.Register(firstcam);
+        CameraSwitch.Register(secondcam);
+    }
+
+    private void OnDisable()
+    {
+        CameraSwitch.Unregister(firstcam);
+        CameraSwitch.Unregister(secondcam);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        //SwitchCamera
+    }
+
     private void LateUpdate()
     {
         transform.Rotate(0f, rotation, 0f);
