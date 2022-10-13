@@ -7508,7 +7508,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh29628
+  m_Name: pb_Mesh29632
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7666,6 +7666,32 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &934106435 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8763721783607665133, guid: fc864f5a5729aae429bc2a380ac2ba5c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1026245328}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &934106437
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934106435}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a5f7b743c208ffc41b67d26f6d02f491, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &957577656 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2339876019123259916, guid: eb25f0fa9abac264794870c1156c0f02,
@@ -7699,6 +7725,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1783613326582231804, guid: fc864f5a5729aae429bc2a380ac2ba5c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.12570547
+      objectReference: {fileID: 0}
     - target: {fileID: 8274570653470423895, guid: fc864f5a5729aae429bc2a380ac2ba5c,
         type: 3}
       propertyPath: m_RootOrder
