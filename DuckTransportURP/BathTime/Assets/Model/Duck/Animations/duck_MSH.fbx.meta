@@ -89,7 +89,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: Duck_LP
+    rootMotionBoneName: pelvis_joint
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
