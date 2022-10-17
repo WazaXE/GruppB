@@ -1,8 +1,11 @@
 fileFormatVersion: 2
-guid: dd1795010e8338e4c9bada5db74cbaf6
+guid: ec26f906b467a53408128d5601a99a3d
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: 8360492201140062496
+    second: Faling a jump and shark
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -89,7 +92,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: Duck_LP
+    rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
@@ -97,7 +100,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0

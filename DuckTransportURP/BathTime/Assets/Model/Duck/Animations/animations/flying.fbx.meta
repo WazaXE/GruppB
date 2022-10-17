@@ -1,8 +1,11 @@
 fileFormatVersion: 2
-guid: dd1795010e8338e4c9bada5db74cbaf6
+guid: 81d07cd6679fdfb4d8f5e0412810bbad
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: 3387807953527668366
+    second: flying
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -89,15 +92,16 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: Duck_LP
+    rootMotionBoneName: pelvis_ctrl
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: dd1795010e8338e4c9bada5db74cbaf6,
+    type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
