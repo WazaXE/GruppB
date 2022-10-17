@@ -60,5 +60,6 @@ Material:
     - _Noise_Subtraction: 0.31
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _RefAmount: 0.21
     m_Colors: []
   m_BuildTextureStacks: []
