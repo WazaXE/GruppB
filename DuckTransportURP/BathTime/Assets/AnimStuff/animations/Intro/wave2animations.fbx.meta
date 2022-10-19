@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: a272692b4a724d74d87b5b87d3ad5057
+guid: dd8af07c8da966f4687f203f90528637
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
-      74: 7434430126672707681
-    second: ball_ani
+      74: 762842981233893303
+    second: wave2animations
   externalObjects: {}
   materials:
     materialImportMode: 2
